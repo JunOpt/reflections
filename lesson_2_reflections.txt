@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+ to start a version control.
+
+How is the staging area different from the working directory and the repository?
+
+The staging area is the intermeidate place for committing logical changes.
+Repository is a place where version-controlled files reside.
+Working directory is the location where the program (or any type of work) is run. It may or may not contain additional files that are not version-controlled.
+
+What value do you think it offers?
+ it is the intermediate are that make flexible adjustment of repository possible.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+  stage only one logical changes and commit. Perform this multiple times.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+  branches will be helpful in exploring diffrent options before committing the changes
+  in the mainstream codes.
+
+How do the diagrams help you visualize the branch structure?
+ It helps to rechability of possible changes made.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
