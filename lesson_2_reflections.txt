@@ -13,6 +13,7 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
   stage only one logical changes and commit. Perform this multiple times.
+  This allows for the user to have control over the size and the scope of the changes he wants to keep. This also makes certain changes be kept separate from the other changes.  
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -24,6 +25,12 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+ Merging assembles those changes made in both branches and as a result, the path should include both commits made by 
+ both branches. This leads to the diagram explained in the course.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+pros: keeps whatever changes made by all the participants unless they generate conflicts
+cons: As a result, if one participant introduces a bug, the bug persists in all throught from the commit.
+      This is not desirable in terms of the srutinty of the code.
+
