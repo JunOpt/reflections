@@ -12,3 +12,7 @@ Describe the differences between forks, clones, and branches. When would you use
   2. clone: copy the repository into a local directory, which can again be cloned into another working directory.
   3. branches: different sequences of developments or files alternative to the "master" main branch
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  1.It works as a refernce commit from which local changes and remote changes can be tracked.
+  2.As a result, it allows for merging both changes maded remotely and locally. Without this "origin/master" state,it will 
+    be very difficult to tell what changes are made where.
