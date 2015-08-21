@@ -16,3 +16,10 @@ What is the benefit of having a copy of the last known state of the remote store
   1.It works as a refernce commit from which local changes and remote changes can be tracked.
   2.As a result, it allows for merging both changes maded remotely and locally. Without this "origin/master" state,it will 
     be very difficult to tell what changes are made where.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  1. I have to directly send the file that contains changes for comparison. The changes must be checked, and when there is 
+     a conflict, another direct communication is needed.
+  2. That kind of collaboration will work only locally. As a result, some simple errors can be fixed rather quickly.
+  3. However, the collaboration will not work if changes are rather significant and collaboration must be managed among 
+     many participants.
